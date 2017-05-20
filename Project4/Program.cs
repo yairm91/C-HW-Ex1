@@ -15,17 +15,18 @@
             string palindromeForPrint = "is not";
             bool isStringValid = false;
             bool isInputNumber = false;
+            bool isStringEightCharacters = false;
             string messegeToPrint = string.Empty;
 
             Console.WriteLine("Please enter a string consisting of 8 characters that are either digits only or english characters only:");
-            string inputFromUser = getInputFromUser();
+            string inputFromUser = getInputFromUser(out isStringEightCharacters);
             isStringValid = checkStringValidatiy(inputFromUser, out isInputNumber);
 
-            while (isStringValid == false)
+            if(isStringEightCharacters == false || isStringValid == false)
             {
-                Console.WriteLine("The input is invalid, try again.");
-                inputFromUser = getInputFromUser();
-                isStringValid = checkStringValidatiy(inputFromUser, out isInputNumber);
+                Console.WriteLine("Invalid input, press Enter to exit...");
+                Console.ReadLine();
+                return;
             }
 
             bool isStringPalindrome = checkIfStringIsPalindrome(inputFromUser);
@@ -55,7 +56,7 @@ The number of uppercase characters is : {1}.",
             }
 
             Console.WriteLine(messegeToPrint);
-            Console.WriteLine("Please press enter to exit the program:");
+            Console.WriteLine("Please press Enter to exit the program.");
             Console.ReadLine();
         }
 
@@ -132,15 +133,11 @@ The number of uppercase characters is : {1}.",
             return stringIsValid;
             }
 
-        private static string getInputFromUser()
+        private static string getInputFromUser(out bool o_IsTheStringEightCharacters)
         {
             string lineReadFromUser = Console.ReadLine();
 
-            while (lineReadFromUser.Length != 8)
-            {
-                Console.WriteLine("This input is not 8 characters long, try again.");
-                lineReadFromUser = Console.ReadLine();
-            }
+            o_IsTheStringEightCharacters = lineReadFromUser.Length == 8;
 
             return lineReadFromUser;
         }
