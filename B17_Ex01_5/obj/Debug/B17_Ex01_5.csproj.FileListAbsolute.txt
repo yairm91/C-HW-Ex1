@@ -1,0 +1,11 @@
+c:\users\sahar\documents\visual studio 2015\Projects\Solution1\B17_Ex01_5\bin\Debug\B17_Ex01_5.exe.config
+c:\users\sahar\documents\visual studio 2015\Projects\Solution1\B17_Ex01_5\bin\Debug\B17_Ex01_5.exe
+c:\users\sahar\documents\visual studio 2015\Projects\Solution1\B17_Ex01_5\bin\Debug\B17_Ex01_5.pdb
+c:\users\sahar\documents\visual studio 2015\Projects\Solution1\B17_Ex01_5\obj\Debug\B17_Ex01_5.csprojResolveAssemblyReference.cache
+c:\users\sahar\documents\visual studio 2015\Projects\Solution1\B17_Ex01_5\obj\Debug\B17_Ex01_5.exe
+c:\users\sahar\documents\visual studio 2015\Projects\Solution1\B17_Ex01_5\obj\Debug\B17_Ex01_5.pdb
+C:\Users\Yair\Documents\Visual Studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_5\obj\Debug\B17_Ex01_5.exe
+C:\Users\Yair\Documents\Visual Studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_5\obj\Debug\B17_Ex01_5.pdb
+C:\Users\Yair\Documents\Visual Studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_5\bin\Debug\B17_Ex01_5.exe
+C:\Users\Yair\Documents\Visual Studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_5\bin\Debug\B17_Ex01_5.pdb
+C:\Users\Yair\Documents\Visual Studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_5\obj\Debug\B17_Ex01_5.csprojResolveAssemblyReference.cache
