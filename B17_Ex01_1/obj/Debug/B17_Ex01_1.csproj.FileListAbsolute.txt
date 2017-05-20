@@ -1,5 +1,0 @@
-C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_1\bin\Debug\B17_Ex1_1.exe
-C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_1\bin\Debug\B17_Ex1_1.pdb
-C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_1\obj\Debug\B17_Ex01_1.csprojResolveAssemblyReference.cache
-C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_1\obj\Debug\B17_Ex1_1.exe
-C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\B17_Ex01_1\obj\Debug\B17_Ex1_1.pdb
