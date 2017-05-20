@@ -78,7 +78,6 @@ The number of uppercase characters is : {1}.",
         private static double getAverageOfDigits(string i_InputFromUser)
         {
             double sumOfDigits = 0;
-
             char[] characterArrayFromInput = i_InputFromUser.ToCharArray();
 
             for (int i = 0; i < characterArrayFromInput.Length; i++)
@@ -93,6 +92,7 @@ The number of uppercase characters is : {1}.",
         {
             char[] characterArrayOfInputString = i_InputFromUser.ToCharArray();
             bool isPalindrome = true;
+
             for (int i = 0; i < characterArrayOfInputString.Length / 2; i++)
             {
                 if (characterArrayOfInputString[i].Equals(characterArrayOfInputString[characterArrayOfInputString.Length - 1 - i]) == false)
@@ -104,12 +104,11 @@ The number of uppercase characters is : {1}.",
             return isPalindrome;
         }
 
-        private static bool checkStringValidatiy(string i_InputFromUser, out bool i_IsInputNumber)
+        private static bool checkStringValidatiy(string i_InputFromUser, out bool o_IsInputNumber)
         {
             char[] characterArrayFromInputString = i_InputFromUser.ToCharArray();
             int numberOfDigits = 0;
             int numberOfEnglishCharacters = 0;
-            bool stringIsValid = true;
 
             for (int i = 0; i < characterArrayFromInputString.Length; i++)
             {
@@ -127,29 +126,16 @@ The number of uppercase characters is : {1}.",
                 }
             }
 
-            if (numberOfDigits != characterArrayFromInputString.Length && numberOfEnglishCharacters != characterArrayFromInputString.Length)
-            {
-                i_IsInputNumber = false;
-                return !stringIsValid;
-            }
-            else
-            {
-                if (numberOfDigits == characterArrayFromInputString.Length)
-                {
-                    i_IsInputNumber = true;
-                }
-                else
-                {
-                    i_IsInputNumber = false;
-                }
+            bool stringIsValid = numberOfDigits == characterArrayFromInputString.Length || numberOfEnglishCharacters == characterArrayFromInputString.Length;
+            o_IsInputNumber = numberOfDigits == characterArrayFromInputString.Length;
 
-                return stringIsValid;
+            return stringIsValid;
             }
-        }
 
         private static string getInputFromUser()
         {
             string lineReadFromUser = Console.ReadLine();
+
             while (lineReadFromUser.Length != 8)
             {
                 Console.WriteLine("This input is not 8 characters long, try again.");

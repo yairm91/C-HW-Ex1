@@ -40,18 +40,21 @@
         private static int findAverageOfInputtedNumbers(int[] i_UserInputs)
         {
             int sumOfInputsValue = 0;
+
             for (int i = 0; i < i_UserInputs.Length; i++)
             {
                 sumOfInputsValue += i_UserInputs[i];
             }
 
             int averageOfInputtedNumbers = sumOfInputsValue / i_UserInputs.Length;
+
             return averageOfInputtedNumbers;
         }
 
         private static int findMonotonicallyDecreasingSequences(int[] i_UserInputs)
         {
             int countOfMonotonicallyDecreasingSequences = 0;
+
             for (int i = 0; i < i_UserInputs.Length; i++)
             {
                 bool isAMonotonicallyDecreasingSequence = checkIfAMonotonicallyDecreasingSequence(i_UserInputs[i]);
@@ -69,15 +72,9 @@
             int unitDigit = i_PoteninalMonoticallyDecreasingSequence % 10;
             int tensDigit = (i_PoteninalMonoticallyDecreasingSequence / 10) % 10;
             int hundredsDigit = i_PoteninalMonoticallyDecreasingSequence / 100;
+            bool isMonotonicallyDecreasingSequence = unitDigit < tensDigit && tensDigit < hundredsDigit;
 
-            if (unitDigit < tensDigit && tensDigit < hundredsDigit)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return isMonotonicallyDecreasingSequence;
         }
 
         private static int findMonotonicallyIncreasingSequences(int[] i_UserInputs)
@@ -100,15 +97,9 @@
             int unitDigit = i_PoteninalMonoticallyIncreasingSequence % 10;
             int tensDigit = (i_PoteninalMonoticallyIncreasingSequence / 10) % 10;
             int hundredsDigit = i_PoteninalMonoticallyIncreasingSequence / 100;
+            bool isMonotonicallyIncreasingSequence = hundredsDigit < tensDigit && tensDigit < unitDigit;
 
-            if (hundredsDigit < tensDigit && tensDigit < unitDigit)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return isMonotonicallyIncreasingSequence;
         }
 
         private static string[] convertToBinary(int[] i_UserInputs)
@@ -116,6 +107,7 @@
             string[] binaryNumbers = new string[3];
             int[] arrayOfInputsToWorkOn = new int[3];
             Array.Copy(i_UserInputs, arrayOfInputsToWorkOn, 3);
+
             for (int i = 0; i < arrayOfInputsToWorkOn.Length; i++)
             {
                 StringBuilder binaryNumber = new StringBuilder();

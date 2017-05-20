@@ -2,3 +2,8 @@ C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Saha
 C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project2\bin\Debug\Project2.pdb
 C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project2\obj\Debug\Project2.exe
 C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project2\obj\Debug\Project2.pdb
+C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project4\bin\Debug\Project4.exe
+C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project4\bin\Debug\Project4.pdb
+C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project4\obj\Debug\Project4.exe
+C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project4\obj\Debug\Project4.pdb
+C:\Users\Yair\documents\visual studio 2015\Projects\B17 Ex01 Yair 305607889 Sahar 308484351\Project4\obj\Debug\Project4.csprojResolveAssemblyReference.cache
